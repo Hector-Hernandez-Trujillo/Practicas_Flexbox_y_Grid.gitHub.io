@@ -1,0 +1,60 @@
+:root{
+    --colorPrincipal : #4DCCBD;
+    --colorSecundario : #D6FFF6;
+    --colorPrincipalLetra : #A7ABDD;
+    --colorSecundarioLetra : #81717A;
+}
+*{
+    font-family: 'Martian Mono', monospace;
+    font-weight: 400;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-snap-type: y mandatory;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--colorSecundario);
+    text-align: center;
+}
+#activate {
+    color: gold;
+}
+
+.navegacion-principal {
+    background-color: var(--colorSecundarioLetra);
+    margin: 2rem;
+    padding: 1rem;
+}
+.navegacion-principal a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    padding: 2rem;
+}
+
+.contenedor-principal {
+    margin: 1rem;
+    margin-bottom: 5rem;
+}
+.img-wallpaper {
+    padding: 1rem;
+    width: 100%;
+}
+.img-wallpaper--1{
+    width: 25rem;
+}
+.p-article {
+    text-align: justify;
+    text-align: center;
+    margin: 2rem;
+}
+.flex-art {
+    margin-bottom: 5rem;
+}
